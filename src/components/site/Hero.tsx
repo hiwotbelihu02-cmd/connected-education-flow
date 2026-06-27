@@ -1,5 +1,6 @@
+import heroScene from "@/assets/hero-network-scene.png.asset.json";
 import { motion } from "motion/react";
-import { ArrowRight, MapPin, Play, Layers, Radio, Users, Bus, Wallet } from "lucide-react";
+import { ArrowRight, MapPin, Play } from "lucide-react";
 
 export function Hero() {
   return (

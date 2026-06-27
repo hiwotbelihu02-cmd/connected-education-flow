@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
-import heroImg from "@/assets/hero-network.png";
 import { ArrowRight, MapPin } from "lucide-react";
+import { HeroVisual } from "./HeroVisual";
 
 export function Hero() {
   return (

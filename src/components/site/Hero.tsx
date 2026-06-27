@@ -104,15 +104,9 @@ export function Hero() {
               transition={{ duration: 0.9, delay: 0.2 }}
               className="relative"
             >
-              <div className="absolute -inset-10 bg-gradient-to-br from-blue-200/40 to-orange-200/40 blur-3xl rounded-full" />
-              <img
-                src={heroImg}
-                alt="eSchool Link network visualization"
-                width={1024}
-                height={1024}
-                className="relative w-full h-auto animate-float-slow drop-shadow-2xl"
-              />
+              <HeroVisual />
             </motion.div>
+
 
             <motion.div
               initial={{ opacity: 0, y: 10 }}

@@ -1,6 +1,6 @@
-import heroScene from "@/assets/hero-network-scene.png.asset.json";
 import { motion } from "motion/react";
 import { ArrowRight, MapPin, Play } from "lucide-react";
+import { HeroDiagram } from "./HeroDiagram";
 
 export function Hero() {
   return (

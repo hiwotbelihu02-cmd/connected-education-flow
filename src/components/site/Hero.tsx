@@ -121,20 +121,15 @@ export function Hero() {
             </motion.div>
           </div>
 
-          {/* Hero scene image */}
-          <div className="lg:col-span-6 relative h-[360px] sm:h-[420px] lg:h-[560px]">
+          {/* Hero network diagram */}
+          <div className="lg:col-span-6 relative h-[420px] sm:h-[500px] lg:h-[600px]">
             <motion.div
               initial={{ opacity: 0, scale: 0.96 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, delay: 0.3 }}
-              className="relative w-full h-full rounded-2xl overflow-hidden shadow-2xl border border-border/50 bg-card"
+              className="relative w-full h-full rounded-3xl border border-border/60 bg-card/40 backdrop-blur-sm overflow-hidden shadow-card"
             >
-              <img
-                src={heroScene.url}
-                alt="eSchool Link connects classrooms, transport, finance, parents and administration into one living school network"
-                className="w-full h-full object-cover object-center"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-background/20 via-transparent to-transparent pointer-events-none" />
+              <HeroDiagram />
             </motion.div>
           </div>
         </div>
